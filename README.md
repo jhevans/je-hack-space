@@ -24,7 +24,16 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository. This will eventually serve as a hub for my coding experiments and projects.
+
+## To do
+
+- [x] Husky for git hooks
+- [ ] ESLint on commit
+- [ ] Run E2E on push
+- [ ] Define what you want to achieve with this
+- [ ] Explore options for blog/cms
+- [ ] Continue with [first steps](https://docs.nestjs.com/first-steps)
 
 ## Installation
 
