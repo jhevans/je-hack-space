@@ -53,8 +53,10 @@ Establish a project that you will keep adding to and make use of by:
   - This is partly a sandbox for testing new techniques and tools that make the development process as a whole smoother. I should do linting, static analysis, hooks, CI etc and do it deliberately and early to catch as many issues as I can before they become issues. Furthermore this should be joyful to work with - so if something is hard and unpleasant, stop doing it and find a better way. 
 
 ## Features
+- [ ] Add AI generated logo
 - [ ] Basic blogging capability in Markdown
 - [ ] Provide appropriate nudges to document stuff (see [ADR 001 - Use ADRs](./docs/adr/001%20-%20Use%20ADRs))
+- [ ] Widget showing current [Carbon intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v2-0-0)
 - [ ] Functional and aesthetically pleasing UI
 - [ ] Private posts
 - [ ] Cloud hosting
