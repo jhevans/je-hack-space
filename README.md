@@ -32,7 +32,9 @@
 - [x] ESLint on commit
 - [x] Run E2E on push
 - [x] Define what you want to achieve with this
-- [ ] Explore options for blog/cms
+- [ ] Set up Github pages
+- [ ] Add link to Github pages in Readme.md
+- [ ] Add link to Github pages on application landing page
 - [ ] Continue with [first steps](https://docs.nestjs.com/first-steps)
 
 ## Goals
@@ -52,8 +54,10 @@ Establish a project that you will keep adding to and make use of by:
 
 ## Features
 - [ ] Basic blogging capability in Markdown
-- [ ] Functional and aesthetically pleasing UI
 - [ ] Provide appropriate nudges to document stuff (see [ADR 001 - Use ADRs](./docs/adr/001%20-%20Use%20ADRs))
+- [ ] Functional and aesthetically pleasing UI
+- [ ] Private posts
+- [ ] Cloud hosting
 
 
 ## Installation
