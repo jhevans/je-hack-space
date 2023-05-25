@@ -31,7 +31,7 @@
 - [x] Husky for git hooks
 - [x] ESLint on commit
 - [x] Run E2E on push
-- [ ] Define what you want to achieve with this
+- [x] Define what you want to achieve with this
 - [ ] Explore options for blog/cms
 - [ ] Continue with [first steps](https://docs.nestjs.com/first-steps)
 
@@ -49,6 +49,10 @@ Establish a project that you will keep adding to and make use of by:
   - I'm going to be time constrained when I'm working with this, I might get half an hour to and hour at a time typically, so I should break down the work into the smallest commits I possibly can so that I'm able to consistently nudge it forward. By maintaining progress it'll be a happier experience to work with it.
 - *Making hard things easy beats doing hard things*
   - This is partly a sandbox for testing new techniques and tools that make the development process as a whole smoother. I should do linting, static analysis, hooks, CI etc and do it deliberately and early to catch as many issues as I can before they become issues. Furthermore this should be joyful to work with - so if something is hard and unpleasant, stop doing it and find a better way. 
+
+## Features
+- [ ] Basic blogging capability in Markdown
+- [ ] Functional and aesthetically pleasing UI
 
 
 ## Installation
