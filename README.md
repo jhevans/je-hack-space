@@ -30,7 +30,7 @@
 
 - [x] Husky for git hooks
 - [x] ESLint on commit
-- [ ] Run E2E on push
+- [x] Run E2E on push
 - [ ] Define what you want to achieve with this
 - [ ] Explore options for blog/cms
 - [ ] Continue with [first steps](https://docs.nestjs.com/first-steps)
