@@ -53,6 +53,7 @@ Establish a project that you will keep adding to and make use of by:
 ## Features
 - [ ] Basic blogging capability in Markdown
 - [ ] Functional and aesthetically pleasing UI
+- [ ] Provide appropriate nudges to document stuff (see [ADR 001 - Use ADRs](./docs/adr/001%20-%20Use%20ADRs))
 
 
 ## Installation
