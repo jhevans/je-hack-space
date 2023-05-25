@@ -29,7 +29,7 @@
 ## To do
 
 - [x] Husky for git hooks
-- [ ] ESLint on commit
+- [x] ESLint on commit
 - [ ] Run E2E on push
 - [ ] Define what you want to achieve with this
 - [ ] Explore options for blog/cms
