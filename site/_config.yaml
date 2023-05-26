@@ -1,0 +1,6 @@
+collections_dir: collections
+collections:
+  adrs:
+    output: true
+baseurl: "/je-hack-space"
+url: "https://jhevans.github.io"
