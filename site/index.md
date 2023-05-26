@@ -1,6 +1,7 @@
-[<img src="/je-hack-space/static/images/owl.jpg"
+[<img src="static/images/owl.jpg"
      alt="Owl"
      style="margin-bottom:10pt; width:50%; margin-left: auto; margin-right:auto; display: block;" />](https://jhevans.github.io/je-hack-space/)
+Owl by Bing Image Creator
 
 ## Description
 
