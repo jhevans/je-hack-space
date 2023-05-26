@@ -6,7 +6,8 @@
 
 An umbrella project for all my personal stuff. Go to the [pages site for more](https://jhevans.github.io/je-hack-space/)
 
-[Architecture Decision Records](/adrs/)
+[Architecture Decision Records](adrs/)
+[Posts](posts/)
 
 ## To do
 
@@ -14,7 +15,8 @@ An umbrella project for all my personal stuff. Go to the [pages site for more](h
 - [x] ESLint on commit
 - [x] Run E2E on push
 - [x] Define what you want to achieve with this
-- [ ] Set up Github pages with [Jekyll](https://jekyllrb.com/docs/)
+- [x] Set up Github pages with [Jekyll](https://jekyllrb.com/docs/)
+- [ ] Fix [URL prefix missing bug](https://github.com/jhevans/je-hack-space/issues/1)
 - [ ] Get Jekyll working locally
 - [ ] Add [Renovate](https://www.mend.io/renovate/)
 - [ ] Add link to Github pages in Readme.md
@@ -38,10 +40,12 @@ Establish a project that you will keep adding to and make use of by:
 
 ## Features
 - [x] Add AI generated logo
-- [ ] Basic blogging capability in Markdown
+- [x] Basic blogging capability in Markdown
 - [ ] Provide appropriate nudges to document stuff (see [ADR 001 - Use ADRs](./docs/adr/001%20-%20Use%20ADRs))
 - [ ] Widget showing current [Carbon intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v2-0-0)
 - [ ] Functional and aesthetically pleasing UI
+- [ ] Only run tests if relevant folders have changed
+- [ ] [Blog linting](https://www.ayyjohn.com/posts/linting-a-jekyll-blog-with-mega-linter)
 - [ ] Private posts
 - [ ] Cloud hosting
 

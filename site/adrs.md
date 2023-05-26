@@ -1,7 +1,3 @@
----
-permalink: /adrs/
----
-
 <ul>
   {% for adr in site.adrs %}
     <li>
