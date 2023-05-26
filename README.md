@@ -1,10 +1,10 @@
-<img src="./img/owl.jpg"
+[<img src="./img/owl.jpg"
      alt="Owl"
-     style="margin-bottom:10pt; width:50%; margin-left: auto; margin-right:auto; display: block;" />
+     style="margin-bottom:10pt; width:50%; margin-left: auto; margin-right:auto; display: block;" />](https://jhevans.github.io/je-hack-space/)
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository. This will eventually serve as a hub for my coding experiments and projects.
+An umbrella project for all my personal stuff. Go to the [pages site for more](https://jhevans.github.io/je-hack-space/)
 
 ## To do
 
