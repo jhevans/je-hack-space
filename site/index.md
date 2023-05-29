@@ -17,9 +17,9 @@ An umbrella project for all my personal stuff. Go to the [pages site for more](h
 - [x] Run E2E on push
 - [x] Define what you want to achieve with this
 - [x] Set up Github pages with [Jekyll](https://jekyllrb.com/docs/)
+- [x] Add [Renovate](https://www.mend.io/renovate/)
 - [ ] Fix [URL prefix missing bug](https://github.com/jhevans/je-hack-space/issues/1)
 - [ ] Get Jekyll working locally
-- [ ] Add [Renovate](https://www.mend.io/renovate/)
 - [ ] Add link to Github pages in Readme.md
 - [ ] Add link to Github pages on application landing page
 - [ ] Continue with [first steps](https://docs.nestjs.com/first-steps)
