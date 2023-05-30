@@ -1,3 +1,7 @@
+---
+layout: page
+---
+
 [<img src="static/images/owl.jpg"
      alt="Owl"
      style="margin-bottom:10pt; width:50%; margin-left: auto; margin-right:auto; display: block;" />](https://jhevans.github.io/je-hack-space/)
@@ -7,8 +11,16 @@ Owl by Bing Image Creator
 
 An umbrella project for all my personal stuff. Go to the [pages site for more](https://jhevans.github.io/je-hack-space/)
 
-[Architecture Decision Records](adrs/)
-[Posts](posts/)
+## Architecture Decision Records
+<ul>
+  {% for adr in site.adrs %}
+    <li>
+      <a href="/je-hack-space{{ adr.url }}">{{ adr.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
+## [Posts](/je-hack-space/posts)
 
 ## To do
 
@@ -18,9 +30,9 @@ An umbrella project for all my personal stuff. Go to the [pages site for more](h
 - [x] Define what you want to achieve with this
 - [x] Set up Github pages with [Jekyll](https://jekyllrb.com/docs/)
 - [x] Add [Renovate](https://www.mend.io/renovate/)
-- [ ] Fix [URL prefix missing bug](https://github.com/jhevans/je-hack-space/issues/1)
-- [ ] Get Jekyll working locally
-- [ ] Add link to Github pages in Readme.md
+- [x] Get Jekyll working locally
+- [x] Fix [URL prefix missing bug](https://github.com/jhevans/je-hack-space/issues/1)
+- [x] Add link to Github pages in Readme.md
 - [ ] Add link to Github pages on application landing page
 - [ ] Continue with [first steps](https://docs.nestjs.com/first-steps)
 

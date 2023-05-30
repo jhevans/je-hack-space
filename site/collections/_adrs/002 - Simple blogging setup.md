@@ -1,5 +1,7 @@
 ---
 date: 25-05-2023
+layout: post
+title: Simple blogging set up
 ---
 
 # Use ADRs
@@ -20,4 +22,10 @@ There are a few decisions that I've already made which are our initial requireme
 - Initially adding a new page should be as simple as committing to this git repo
 - Do the simplest thing to start and refine later
 
-Given Github Pages already fulfills both these criteria it seems like a perfect engine for this.
+Given Github Pages already fulfills both these criteria it seems like a perfect engine for this. 
+
+Github pages natively supports [Jekyll](https://jekyllrb.com/) which allows for more flexibility when generating a static site so I've adopted this. 
+
+### Links
+- [Github Actions workflow config](../../../.github\workflows\jekyll-gh-pages.yml) 
+- [Jekyll config](../../_config.yml)
