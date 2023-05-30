@@ -30,9 +30,10 @@ An umbrella project for all my personal stuff. Go to the [pages site for more](h
 - [x] Define what you want to achieve with this
 - [x] Set up Github pages with [Jekyll](https://jekyllrb.com/docs/)
 - [x] Add [Renovate](https://www.mend.io/renovate/)
-- [x] Get Jekyll working locally
+- [x] Get Jekyll working locallyz
 - [x] Fix [URL prefix missing bug](https://github.com/jhevans/je-hack-space/issues/1)
 - [x] Add link to Github pages in Readme.md
+- [ ] Run build in Github Actions
 - [ ] Add link to Github pages on application landing page
 - [ ] Continue with [first steps](https://docs.nestjs.com/first-steps)
 
