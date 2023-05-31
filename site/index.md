@@ -33,7 +33,7 @@ An umbrella project for all my personal stuff. Go to the [pages site for more](h
 - [x] Get Jekyll working locallyz
 - [x] Fix [URL prefix missing bug](https://github.com/jhevans/je-hack-space/issues/1)
 - [x] Add link to Github pages in Readme.md
-- [ ] Run build in Github Actions
+- [x] Run build in Github Actions
 - [ ] Add link to Github pages on application landing page
 - [ ] Continue with [first steps](https://docs.nestjs.com/first-steps)
 
