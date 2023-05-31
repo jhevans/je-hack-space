@@ -1,6 +1,4 @@
-[<img src="./site/img/owl.jpg"
-     alt="Owl"
-     style="margin-bottom:10pt; width:50%; margin-left: auto; margin-right:auto; display: block;" />](https://jhevans.github.io/je-hack-space/)
+[![Node.js CI](https://github.com/jhevans/je-hack-space/actions/workflows/node-build.yml/badge.svg)](https://github.com/jhevans/je-hack-space/actions/workflows/node-build.yml)
 
 ## Description
 
