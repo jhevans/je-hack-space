@@ -19,6 +19,6 @@ describe('AppController (e2e)', () => {
     return request(app.getHttpServer())
       .get('/')
       .expect(200)
-      .expect('Hello World!');
+      .expect('<a href="https://jhevans.github.io/je-hack-space/">Pages</a>');
   });
 });

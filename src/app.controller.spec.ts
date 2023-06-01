@@ -15,8 +15,10 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('should return "Pages" link', () => {
+      expect(appController.getHello()).toBe(
+        '<a href="https://jhevans.github.io/je-hack-space/">Pages</a>',
+      );
     });
   });
 });
