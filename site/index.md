@@ -35,7 +35,7 @@ An umbrella project for all my personal stuff. Go to the [pages site for more](h
 - [x] Add link to Github pages in Readme.md
 - [x] Run build in Github Actions
 - [x] Add link to Github pages on application landing page
-- [ ] Fix VSCode Jest integration
+- [x] Fix VSCode Jest integration
 - [ ] Continue with [first steps](https://docs.nestjs.com/first-steps)
 
 ## Goals
