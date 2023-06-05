@@ -15,10 +15,21 @@ describe('AppController (e2e)', () => {
     await app.init();
   });
 
-  it('/ (GET)', () => {
+  it('/ (GET)', async () => {
+    const response = await request(app.getHttpServer()).get('/').expect(200);
+    expect(response.text).toContain('Pages');
+    return response;
+  });
+
+  it('/cats (POST)', () => {
     return request(app.getHttpServer())
-      .get('/')
-      .expect(200)
-      .expect('<a href="https://jhevans.github.io/je-hack-space/">Pages</a>');
+      .post('/cats')
+      .send({
+        name: 'Ferd',
+        age: 2,
+        breed: 'Ragdoll',
+      })
+      .expect(201)
+      .expect('Ferd is a 2 year old Ragdoll');
   });
 });

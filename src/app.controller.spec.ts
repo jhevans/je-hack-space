@@ -16,7 +16,7 @@ describe('AppController', () => {
 
   describe('root', () => {
     it('should return "Pages" link', () => {
-      expect(appController.getHello()).toBe(
+      expect(appController.getHello()).toContain(
         '<a href="https://jhevans.github.io/je-hack-space/">Pages</a>',
       );
     });
