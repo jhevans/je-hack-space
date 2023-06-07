@@ -36,7 +36,8 @@ An umbrella project for all my personal stuff. Go to the [pages site for more](h
 - [x] Run build in Github Actions
 - [x] Add link to Github pages on application landing page
 - [x] Fix VSCode Jest integration
-- [ ] Continue with [first steps](https://docs.nestjs.com/first-steps)
+- [x] Continue with [first steps](https://docs.nestjs.com/first-steps)
+- [ ] Start building some features
 
 ## Goals
 Establish a project that you will keep adding to and make use of by:
