@@ -1,4 +1,4 @@
-import { Controller, Get, Header } from '@nestjs/common';
+import { Controller, Get, Header, Render } from '@nestjs/common';
 import { AppService } from './app.service';
 import { firstValueFrom } from 'rxjs';
 
@@ -7,8 +7,12 @@ export class AppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  async getHello() {
-    return this.appService.getHello();
+  @Render('index')
+  async getIndex() {
+    return {
+      title: "Welcome to John's Hack Space",
+      content: 'Your stuff goes here',
+    };
   }
 
   @Get('intensity')
