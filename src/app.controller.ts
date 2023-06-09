@@ -12,6 +12,10 @@ export class AppController {
     return {
       title: "Welcome to John's Hack Space",
       content: 'Your stuff goes here',
+      pagesLink: 'http://localhost:4000/je-hack-space/',
+      currentCarbonIntensity: await firstValueFrom(
+        this.appService.getNationalCarbonIntensity(),
+      ),
     };
   }
 
