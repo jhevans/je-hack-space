@@ -37,7 +37,7 @@ An umbrella project for all my personal stuff. Go to the [pages site for more](h
 - [x] Add link to Github pages on application landing page
 - [x] Fix VSCode Jest integration
 - [x] Continue with [first steps](https://docs.nestjs.com/first-steps)
-- [ ] Start building some features
+- [x] Start building some features
 
 ## Goals
 Establish a project that you will keep adding to and make use of by:
@@ -57,9 +57,9 @@ Establish a project that you will keep adding to and make use of by:
 ## Features
 - [x] Add AI generated logo
 - [x] Basic blogging capability in Markdown
-- [ ] Widget showing current [Carbon intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v2-0-0)
+- [x] Widget showing current [Carbon intensity](https://carbon-intensity.github.io/api-definitions/#carbon-intensity-api-v2-0-0)
   - [x] Get some values back
-  - [ ] Make it look pretty
+  - [x] Make it look pretty (ish)
 - [ ] Provide appropriate nudges to document stuff (see [ADR 001 - Use ADRs](./docs/adr/001%20-%20Use%20ADRs))
 - [ ] Functional and aesthetically pleasing UI
 - [ ] Only run tests if relevant folders have changed
