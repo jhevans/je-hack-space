@@ -9,7 +9,7 @@ Owl by Bing Image Creator
 
 ## Description
 
-An umbrella project for all my personal stuff. Go to the [pages site for more](https://jhevans.github.io/je-hack-space/)
+An umbrella project for all my personal stuff.
 
 ## Architecture Decision Records
 <ul>
